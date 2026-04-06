@@ -1,0 +1,19 @@
+[user]
+	email = lokimckay@gmail.com
+	name = Loki
+
+[core]
+	autocrlf = false
+
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/repo/tmc/"]
+	path = ~/.tmc.gitconfig
+
+[alias]
+	whoami = config user.email
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

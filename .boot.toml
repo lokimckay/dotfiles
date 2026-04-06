@@ -1,0 +1,13 @@
+[[symlink]]
+link = "~"
+target = "./home"
+include = ["*"]
+
+[[source]]
+file = "~/.bash_env"
+
+[[symlink]]
+link = "$VSCODE_HOME"
+target = "./vscode"
+platform = "windows"
+include = ["*"]

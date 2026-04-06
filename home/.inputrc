@@ -1,0 +1,16 @@
+# ~/.inputrc: Readline initialization file for bash and other readline-based programs
+
+set skip-completed-text on # More intelligent autocomplete
+set completion-ignore-case on # Case-insensitive autocompletion
+set show-all-if-ambiguous on # List all matches in case multiple possible completions are possible
+set mark-symlinked-directories on # Immediately add a trailing slash when autocompleting symlinks to directories
+set page-completions off # Show all autocomplete results at once
+set completion-query-items 200 # If there are more than 200 possible completions for a word, ask to show them all
+set visible-stats on # Show extra file information when completing, like `ls -F` does
+set input-meta on # Support UTF-8
+set output-meta on # Support UTF-8
+set convert-meta off # Support UTF-8
+"\e[Z": menu-complete # Flip through autocompletion matches with Shift-Tab.
+"\e[A": history-search-backward # Filtered history search
+"\e[B": history-search-forward # Filtered history search
+"\e[3;3~": kill-word # Alt+Delete to delete the preceding word

@@ -1,0 +1,5 @@
+rust-lang.rust-analyzer
+esbenp.prettier-vscode
+supermaven.supermaven
+mrmlnc.vscode-duplicate
+tamasfe.even-better-toml

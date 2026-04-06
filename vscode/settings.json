@@ -1,0 +1,12 @@
+{
+  // "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true
+}
