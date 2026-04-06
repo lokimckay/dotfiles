@@ -12,5 +12,3 @@ export VSCODE_HOME="$APPDATA/Code/User"
 export VSCODE_HOME_WIN=$(wslpath -w "$VSCODE_HOME")
 
 . "$HOME/.cargo/env"
-
-

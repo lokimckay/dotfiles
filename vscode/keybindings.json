@@ -1,3 +1,4 @@
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "ctrl+up",
@@ -28,5 +29,28 @@
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
     "when": "canNavigateForward"
-  }
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+w",
+    "command": "editor.action.toggleWordWrap"
+  },
+  {
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "alt+z",
+    "command": "-workbench.action.terminal.sizeToContentWidth",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+  },
 ]

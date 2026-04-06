@@ -1,5 +1,4 @@
 {
-  // "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.lightbulb.enabled": "off",
@@ -8,5 +7,18 @@
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  }
 }
